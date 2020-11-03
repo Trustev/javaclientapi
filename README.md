@@ -1,16 +1,16 @@
 ![alt text](https://app.trustev.com/assets/img/apple-icon-144.png)
 
-#Trustev Java Libary
+# Trustev Java Libary
 - If you are not familiar with Trustev, start with our [Developer Portal](http://www.trustev.com/developers).
 - Check out our [API Documentation](http://www.trustev.com/developers#apioverview).
 - If you would like to get some Test API Keys to begin Integrating, please contact our Integration Team: integrate@trustev.com
 - **New in version 2.0.11**: support for the new Fulfilment object
 
-##Requirements
+## Requirements
 - Java 1.6 +
 
-##Installation
-####Maven Users
+## Installation  
+#### Maven Users  
 - For Maven, it is available in the Central Repository, therefore just add the following dependency to your pom.xml file.
 ```xml
   <dependency>
@@ -20,14 +20,14 @@
   </dependency>
 ```
 
-####Others
+#### Others
 - You could also download our solution, build it and simply include the jar files as you need them.
 - Our library can also be used as an example to inspire your own Integration to the Trustev Platform.
 
 ## Usage
    The Trustev API has been designed to allow users complete control over what information they are sending to us, while still ensuring that the Trustev Integration can be done in a couple of simple steps.
 
-###SSL Certification Import
+### SSL Certification Import
 The Trustev API https://app.trustev.com uses a wildcard certificate.  Languages such as Java and PHP are more strict with SSL certifications and do not by default validate wildcard certificates.
 To get around this you will need to manually import the certficate as a trusted certificate into the JVM.  To do this download the certificate from Firefox or another browser.
 
